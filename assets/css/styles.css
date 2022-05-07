@@ -65,7 +65,38 @@ div.header-main-content > p {
   width: 698.167px;
 }
 
-
 /* main */
 
 /* section 1 */
+
+section.main-section-content {
+  background-color:#fff;
+  padding:6.6vmax 4vw;
+  text-align: center;
+}
+
+section.main-section-content > h2 {
+  font-size: 44.8px;
+  font-weight: 500;
+  line-height:58.2px;
+  margin-bottom:32px;
+  width: 698.167px;
+  margin:0 auto;
+}
+
+section.main-section-content > p {
+  font-size: 17.6px;
+  font-weight: 400;
+  line-height: 31.6833px;
+  margin-top:16px;
+  width: 698.167px;
+  margin:0 auto;
+}
+
+
+@media only screen and (max-width:768px) {
+
+  section.main-section-content > h2, section.main-section-content > p, div.header-main-content > p,   h1   {
+    width: 90%;
+  }
+}
