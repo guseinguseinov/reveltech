@@ -28,6 +28,12 @@ img.logo {
 }
 
 nav {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+}
+
+nav > div {
     width: 161.467px;
     display: flex;
     justify-content: space-between;
@@ -36,7 +42,7 @@ nav {
     align-items: center ;
 }
 
-nav > a {
+nav > div >  a {
     font-size: 20px;
     font-weight: 500;
     line-height: 31.6833px;
@@ -44,9 +50,28 @@ nav > a {
     text-decoration: none;
 }
 
+
+
 a.home-link {
     border-bottom: 1px solid #fff;
 }
+
+button.btn {
+  display: none;
+  visibility: hidden;
+  background-color: transparent;
+  border:none;
+  color: #fff;
+  transition:all 0.4s;
+  
+}
+
+button.btn:hover {
+  box-shadow: 0 0 3px #fff;
+}
+
+
+/* header main content */
 
 div.header-main-content {
   padding: 60px;
@@ -191,6 +216,16 @@ a.email-link {
 }
 
 @media only screen and (max-width:768px) {
+  nav > div {
+      display: none;
+      visibility: hidden;
+  }
+
+  button.btn {
+    display: block;
+    visibility: visible;
+  }
+
   section.main-section-content > h2, section.main-section-content > p, div.header-main-content > p,   h1   {
     width: 90%;
   }
