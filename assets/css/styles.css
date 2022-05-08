@@ -31,6 +31,7 @@ nav {
   display: flex;
   flex-direction:column;
   justify-content: center;
+  align-items: center;
 }
 
 nav > div {
@@ -63,7 +64,7 @@ button.btn {
   border:none;
   color: #fff;
   transition:all 0.4s;
-  
+  width: 24px;
 }
 
 button.btn:hover {
