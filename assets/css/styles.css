@@ -7,7 +7,7 @@
 
 /* header */
 header{
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://images.squarespace-cdn.com/content/v1/5f1e5cd8d2c6520cd10eeeb3/1597127486282-RSFGXDIPDHTT9YD43Z7D/2048px-Dark_sunrise_from_the_place_where_everyone_usually_takes_photographs_of_the_scenic_Jamnik_church.jpg') ;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/background.jpg') ;
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -128,7 +128,7 @@ form {
 }
 
 section.form-section {
-  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://images.squarespace-cdn.com/content/v1/5f1e5cd8d2c6520cd10eeeb3/1597202836674-0FDF1M4CSAG0RAG3ZS4E/coffee-beans-3885x2565-wallpaper_www.miscellaneoushi.com_78.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/coffee.jpg');
   background-position: center;
   background-repeat: no-repeat;
   padding:6.6vmax 4vw;
